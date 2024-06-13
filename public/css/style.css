@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+#header{
+    display: flex;
+    align-items: center;
+    gap: 18cm;
+    padding: 15px;
+    padding-left: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+img{
+    width: 2.5cm;
+    height: 2.5cm;
+    border-radius: 5px;
+}
+.name{
+    font-size: 1.6cm;
+}
+.blue{
+    color: rgb(115, 182, 254);
+}
+.black{
+    color: rgb(73, 73, 73);
+}
+.red{
+    color: rgb(249, 83, 83);
+}
+li{
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:brown ;
+    
+}
+.page{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+    color: brown;
+    font-family:cursive;
+}
+
+
+.complaint{
+    width: 20cm;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-top:-60px;
+    border-radius: 20px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:cursive;
+}
+input{
+    margin-top: 5px;
+    padding:8px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input:focus{
+   outline: none;
+}
+select,option{
+    margin-top: 5px;
+    padding:8px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+textarea{
+    margin-top: 8px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#showtext{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+#message{
+    font-family: cursive;
+    font-size: 22px;
+    color: rgb(5, 167, 5);
+}
+button{
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: rgb(5, 167, 5);
+    cursor: pointer;
+    color: white;
+    width: 5cm;
+    font-family:cursive;
+    font-weight: 600;
+    align-items: center;
+    border: none;
+}
+
+/* -----------------------------     footer     --------------------------------------------------*/
+.footer{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.address{
+    margin-top: 10px;
+}
+.rights{
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+
+    #header{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        padding: 15px;
+        padding-left: 10px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    img{
+        width: 1cm;
+        height: 1cm;
+        border-radius: 5px;
+    }
+    .name{
+        font-size: .8cm;
+    }
+    a{
+        font-size:10px;
+    }
+    li{
+        gap:5px;
+    }
+    .page{
+        font-size: 30px;
+    }
+
+    /*--------------------    form    -------------------------*/
+.complaint{
+    width: 8cm;
+    padding: 40px;
+}
+button{
+    width: 2cm;
+}
+
+    
+}
